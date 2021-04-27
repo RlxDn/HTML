@@ -13,14 +13,35 @@
     이름 : <input type="text" required size="10" maxlength="5"><br>
     전화번호 : <input type="text" readonly value="값을 넣어준다"><br>
     이메일 : <input type="text"><br>
-    <select name="select" size="5" multiple>
+    <select name="select" size="1">
+      <option value="f00" selected>--선택--</option>
       <option value="f01">수박</option>
-      <option value="f02" selected>포도</option>
+      <option value="f02">포도</option>
       <option value="f03">복숭아</option>
       <option value="f04">사과</option>
       <option value="f05">딸기</option>
     </select>
     <input type="submit" value="전송">
+    <input type="text" list="aaaa">
+    <datalist id="aaaa">
+      <option>라면</option>
+      <option>떡볶이</option>
+      <option>순대</option>
+      <option>튀김</option>
+      <option>오뎅</option>
+    </datalist>
+<br><br><br><br><br>
+    <textarea cols="" rows="">
+
+    </textarea>
+  </form>
+  <form oninput="result.value = parseInt(num1.value) + parseInt(num2.value)">
+    <input type="number" name="num1" value="0">+
+    <input type="number" name="num2" value="0">=
+    <output name="result"></output>
+  </form>
+  <form>
+    <progress value="10" max="100"></progress>
   </form>
 </body>
 </html>
