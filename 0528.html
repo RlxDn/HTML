@@ -2,15 +2,51 @@
 <html lang="en">
 <head>
   <style>
-    .img-float {
+    #box1 {
+      z-index: 70;
+      position: relative;
+      background: yellow;
+      width: 50px;
+      height: 50px; 
       float: left;
-      padding: 20px;
+    }
+    #box2 {
+      z-index: 60;
+      position: relative;
+      background: red;
+      width: 50px;
+      height: 50px; 
+      left: -40px;
+      top: 30px;
+      float: left;
+    }
+    #box3 {
+      z-index: 50;
+      position: relative;
+      background: green;
+      width: 50px;
+      height: 50px;
+      top: 20px; 
+      left: -70px;
+      float: left;
     }
   </style>
 </head>
 <body>
-  <img class="img-float" src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F24283C3858F778CA2EFABE" />
-  <h1>타이틀</h1>
-  <p>구글 이미지는 구글이 제작하여 2001년 7월에 선보인 검색 서비스로, 이미지 콘텐츠를 찾기 위해 웹을 검색하도록 도와준다. 그림을 검색할 때 일치하는 각 그림의 섬네일이 나타난다. 사용자가 섬네일을 클릭하면 그림은 웹사이트 위의 상자로 표시된다.</p>
+  <div id="box1"></div>
+  <div id="box2"></div>
+  <div id="box3"></div>
+  <!-- <div class="box1">1</div>
+  <div class="contents">투움바파스타, 야채주먹밥, 콜팝(치킨+맛감자+한라봉에이드), 부시맨빵*초코잼, 나쵸샐러드, 깍두기
+                        투움바파스타, 야채주먹밥, 콜팝(치킨+맛감자+한라봉에이드), 부시맨빵*초코잼, 나쵸샐러드, 깍두기
+                        투움바파스타, 야채주먹밥, 콜팝(치킨+맛감자+한라봉에이드), 부시맨빵*초코잼, 나쵸샐러드, 깍두기
+                        투움바파스타, 야채주먹밥, 콜팝(치킨+맛감자+한라봉에이드), 부시맨빵*초코잼, 나쵸샐러드, 깍두기
+                        투움바파스타, 야채주먹밥, 콜팝(치킨+맛감자+한라봉에이드), 부시맨빵*초코잼, 나쵸샐러드, 깍두기
+                        투움바파스타, 야채주먹밥, 콜팝(치킨+맛감자+한라봉에이드), 부시맨빵*초코잼, 나쵸샐러드, 깍두기
+                        투움바파스타, 야채주먹밥, 콜팝(치킨+맛감자+한라봉에이드), 부시맨빵*초코잼, 나쵸샐러드, 깍두기
+                        투움바파스타, 야채주먹밥, 콜팝(치킨+맛감자+한라봉에이드), 부시맨빵*초코잼, 나쵸샐러드, 깍두기
+                        투움바파스타, 야채주먹밥, 콜팝(치킨+맛감자+한라봉에이드), 부시맨빵*초코잼, 나쵸샐러드, 깍두기
+                        투움바파스타, 야채주먹밥, 콜팝(치킨+맛감자+한라봉에이드), 부시맨빵*초코잼, 나쵸샐러드, 깍두기
+                        투움바파스타, 야채주먹밥, 콜팝(치킨+맛감자+한라봉에이드), 부시맨빵*초코잼, 나쵸샐러드, 깍두기</div> -->
 </body>
 </html>
